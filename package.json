@@ -1,0 +1,33 @@
+{
+    "name": "@raybags-web-dev/ray-scrapper",
+    "version": "1.0.0",
+    "description": "scape all any text data you want from any website like headings paragraphs and so on....",
+    "main": "index.js",
+    "scripts": {
+        "gen": "node index.js",
+        "prod": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/raybags-web-dev/ray-scrappie.git"
+    },
+    "keywords": [
+        "webscrapping",
+        "scrapping",
+        "scrape"
+    ],
+    "author": "raybags-web-dev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/raybags-web-dev/ray-scrappie/issues"
+    },
+    "homepage": "https://github.com/raybags-web-dev/ray-scrappie#readme",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "cheerio": "^1.0.0-rc.10",
+        "fs": "0.0.1-security"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
