@@ -9,9 +9,9 @@ npm install ray-scrappie
 - make an index.js file or your prefered name and require the package as indicated below:
 
 ```javascript
-const your_preffered_name = require("ray-scrappie");
+const Loarder = require("ray-scrappie");
 
-your_preffered_name("website-link", "element-name", "file-name");
+Loarder("website-link", "element-name", "file-name");
 ```
 
 - Scrappie is a web-scrapping npm package, that provides the functionality to scape a website of data any data you wish to collect.
