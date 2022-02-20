@@ -6,9 +6,17 @@
 npm install ray-scrappie
 ```
 
-- Scrappie is a web-scrapping npm package, that provides the functionality to scape a website of data.
+- make an index.js file or your prefered name and require the package as indicated below:
 
-## Supported DOM element types supported include:
+```javascript
+const your_preffered_name = require("ray-scrappie");
+
+your_preffered_name("website-link", "element-name", "file-name");
+```
+
+- Scrappie is a web-scrapping npm package, that provides the functionality to scape a website of data any data you wish to collect.
+
+## Supported DOM element types include:
 
 ```bash
 h1
@@ -38,19 +46,9 @@ a
 p
 ```
 
-## Resource
-
-A function:
-
-```bash
-Loader
-```
-
-is exposed.
-
 ### parameters:
 
-- These function takes 3 parameters:
+- This function takes 3 parameters:
 
   1): The link for the website you want to collect data from. For example:
 
@@ -58,7 +56,7 @@ is exposed.
  https://example.com
 ```
 
-2): The type of elementt you want to collect data from. For example:
+2): The type of element you want to collect data from. For example:
 
 ```bash
  "h1", "h2", "h3", "h4", "img", "a", "p", "li"
@@ -73,16 +71,20 @@ is exposed.
 ## NOTE:
 
 - All 3 parameters must be strings.
-- After instaling the package, make a folder called "data in your project directly to store the newly collected data" otherwise It will be automatically generated for you.
+- After instaling the package, make a folder called "data in your project directly to store the newly collected data"
+- If you do not make the folder "data" to store the collected data, it will automatically be generated in the root folder
+- Do not append the ".json" extention to the file storing data as this is automated.
 
-### Example:
+### Usecase example:
 
 ```javascript
-Loader("https://example.com", "h3", "subheadings");
+Loader("https://example.com", "h3", "sub_headings");
 ```
 
-- The above code will collect all text in the h3 tags, make folder in your home directory called "data" and write to it a json file containing all your data.
+- The above code will collect all text in the h3 tags, make a folder in your root directory called "data" (if not found) and write to it a json file containing all your data.
 
-### Workd of advise:
+### Word of advise:
 
-- With great power comes great responsibility, please makes sure to use this package responsibly to avoid your IP address being blocked. You
+- With great power comes great responsibility, please makes sure to use this package responsibly to avoid your IP address being blocked.
+
+- Now go collect your data !!!
