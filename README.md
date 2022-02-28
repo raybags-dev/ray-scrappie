@@ -3,7 +3,7 @@
 ## Usage:
 
 ```bash
-npm install ray-scrappie
+npm install ray-scrapper
 ```
 
 - make an index.js file or your prefered name and require the package as indicated below:
