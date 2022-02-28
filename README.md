@@ -9,7 +9,7 @@ npm install ray-scrapper
 - make an index.js file or your prefered name and require the package as indicated below:
 
 ```javascript
-const Loarder = require("ray-scrappie");
+const Loarder = require("ray-scrapper");
 
 Loarder("website-link", "element-name", "file-name");
 ```
