@@ -55,7 +55,7 @@ Loader(link, "a", "links-history-data");
 npm run collect
 ```
 
-- You should be able to see your data in the folder. Icase of any errors
+- You should be able to see your data in the folder. Any errors will be logged. 
 
 - Scrappie is a web-scrapping npm package, that provides the functionality to scape data from any website of as long as the data contained therein is publicly available.
 
